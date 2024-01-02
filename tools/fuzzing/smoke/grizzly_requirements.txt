@@ -4,9 +4,9 @@
 #
 #    pip-compile --generate-hashes --output-file=tools/fuzzing/smoke/grizzly_requirements.txt tools/fuzzing/smoke/grizzly_requirements.in
 #
-certifi==2021.10.8 \
-    --hash=sha256:78884e7c1d4b00ce3cea67b44566851c4343c120abd683433ce934a68ea58872 \
-    --hash=sha256:d62a0163eb4c2344ac042ab2bdf75399a71a2d8c7d47eac2e2ee91b9d6339569
+certifi==2023.7.22 \
+    --hash=sha256:539cc1d13202e33ca466e88b2807e29f4c13049d6d87031a3c110744495cb082 \
+    --hash=sha256:92d6037539857d8206b8f6ae472e8b77db8058fec5937a1ef3f54304089edbb9
     # via requests
 charset-normalizer==2.0.8 \
     --hash=sha256:735e240d9a8506778cd7a453d97e817e536bb1fc29f4f6961ce297b9c7a917b0 \
@@ -35,7 +35,7 @@ fuzzmanager==0.4.1 \
 grizzly-framework==0.16.2 \
     --hash=sha256:3270fd705a933c4d197784c6e403389c3edb791d09ce26b8a7d7c98934bbc87b \
     --hash=sha256:b01503d1a3a0f8a3fb65cfbc2397a1b1bd4d524389a24ce8eaf00613d374a91b
-    # via -r tools/fuzzing/smoke/grizzly_requirements.in
+    # via -r grizzly_requirements.in
 idna==3.3 \
     --hash=sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff \
     --hash=sha256:9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d
@@ -68,7 +68,7 @@ psutil==5.9.4 \
     --hash=sha256:efeae04f9516907be44904cc7ce08defb6b665128992a56957abc9b61dca94b7 \
     --hash=sha256:fd8522436a6ada7b4aad6638662966de0d61d241cb821239b2ae7013d41a43d4
     # via
-    #   -r tools/fuzzing/smoke/../../../build/psutil_requirements.txt
+    #   -r ../../../build/psutil_requirements.txt
     #   ffpuppet
     #   grizzly-framework
 pyyaml==6.0 \
