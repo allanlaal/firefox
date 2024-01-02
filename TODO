@@ -1,0 +1,10 @@
+
+
+kas processcount 10000 aitas?
+kas kasutab gpu renderdamiseks?
+kas webgl on kasutusel?
+kas webgpu on kasutusel?
+kas kuskil on hardcodeud proc limit?
+
+# TODO:
+ * if -1, then use all available cores (currently defaults to 1)
