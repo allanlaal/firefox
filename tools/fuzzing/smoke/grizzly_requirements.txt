@@ -35,7 +35,7 @@ fuzzmanager==0.4.1 \
 grizzly-framework==0.16.2 \
     --hash=sha256:3270fd705a933c4d197784c6e403389c3edb791d09ce26b8a7d7c98934bbc87b \
     --hash=sha256:b01503d1a3a0f8a3fb65cfbc2397a1b1bd4d524389a24ce8eaf00613d374a91b
-    # via -r tools/fuzzing/smoke/grizzly_requirements.in
+    # via -r grizzly_requirements.in
 idna==3.3 \
     --hash=sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff \
     --hash=sha256:9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d
@@ -68,7 +68,7 @@ psutil==5.9.4 \
     --hash=sha256:efeae04f9516907be44904cc7ce08defb6b665128992a56957abc9b61dca94b7 \
     --hash=sha256:fd8522436a6ada7b4aad6638662966de0d61d241cb821239b2ae7013d41a43d4
     # via
-    #   -r tools/fuzzing/smoke/../../../build/psutil_requirements.txt
+    #   -r ../../../build/psutil_requirements.txt
     #   ffpuppet
     #   grizzly-framework
 pyyaml==6.0 \
@@ -118,9 +118,9 @@ six==1.16.0 \
     #   fasteners
     #   fuzzmanager
     #   jsbeautifier
-urllib3==1.26.7 \
-    --hash=sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece \
-    --hash=sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844
+urllib3==1.26.18 \
+    --hash=sha256:34b97092d7e0a3a8cf7cd10e386f401b3737364026c45e622aa02903dffe0f07 \
+    --hash=sha256:f8ecc1bba5667413457c529ab955bf8c67b45db799d159066261719e328580a0
     # via requests
 xvfbwrapper==0.2.9 \
     --hash=sha256:bcf4ae571941b40254faf7a73432dfc119ad21ce688f1fdec533067037ecfc24
